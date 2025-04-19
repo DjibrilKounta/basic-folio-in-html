@@ -5,81 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Portfolio.css">
 </head>
 
 <body>
-    <h1>Djibril Kounta</h1>
-    <h2>Développeur</h2>
-    <h3>Présentation</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt iste a perferendis quos odit quae labore saepe,
-        velit, consequuntur libero nisi rem nemo ea similique ratione eveniet quo quidem suscipit.
-    </p>
-    <h3>Réalisations</h3>
-    <p>voici quelque créations:</p>
-    <table>
-        <tr><td><a href="img.png"><img src="img.png" alt="bart" width="200"></a></td>
-        <td><a href="img.png"><img src="img.png" alt="bart" width="200"></a></td>
-        <td><a href="img.png"><img src="img.png" alt="bart" width="200"></a></td>
-        <td><a href="img.png"><img src="img.png" alt="bart" width="200"></a></td>
-        <td><a href="img.png"><img src="img.png" alt="bart" width="200"></a></td>
-        <td><a href="img.png"><img src="img.png" alt="bart" width="200"></a></td></tr>
+    <div class="container">
+        <h1>Djibril Kounta</h1>
+        <h2>Développeur</h2>
+        <h3>Présentation</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt iste a perferendis quos odit quae labore
+            saepe,
+            velit, consequuntur libero nisi rem nemo ea similique ratione eveniet quo quidem suscipit.
+        </p>
+        <h3>Réalisations</h3>
+        <p>voici quelque créations:</p>
+        <div class="img">
+            <a href="img.png"><img src="img.png" alt="bart" width="300"></a>
+            <a href="img.png"><img src="img.png" alt="bart" width="300"></a>
+            <a href="img.png"><img src="img.png" alt="bart" width="300"></a>
+            <a href="img.png"><img src="img.png" alt="bart" width="300"></a>
+            <a href="img.png"><img src="img.png" alt="bart" width="300"></a>
+            <a href="img.png"><img src="img.png" alt="bart" width="300"></a>
+            <a href="img.png"><img src="img.png" alt="bart" width="300"></a>
+            <a href="img.png"><img src="img.png" alt="bart" width="300"></a>
+            <a href="img.png"><img src="img.png" alt="bart" width="300"></a>
+            <a href="img.png"><img src="img.png" alt="bart" width="300"></a>
+            <a href="img.png"><img src="img.png" alt="bart" width="300"></a>
+            <a href="img.png"><img src="img.png" alt="bart" width="300"></a>
+        </div>
 
-        <tr><td><a href="img.png"><img src="img.png" alt="bart" width="200"></a></td>
-            <td><a href="img.png"><img src="img.png" alt="bart" width="200"></a></td>
-            <td><a href="img.png"><img src="img.png" alt="bart" width="200"></a></td>
-            <td><a href="img.png"><img src="img.png" alt="bart" width="200"></a></td>
-            <td><a href="img.png"><img src="img.png" alt="bart" width="200"></a></td>
-            <td><a href="img.png"><img src="img.png" alt="bart" width="200"></a></td></tr>
-    </table>
-
-    <h3>Tarifs</h3>
-    <table border="1" cellpadding="10">
-        <tr>
-            <th>Option</th>
-            <th>Site vitrine</th>
-            <th>site ecommerce</th>
-            <th>site entreprise</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>500$</td>
-            <td>800$</td>
-            <td>1100$</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>1500$</td>
-            <td>1800$</td>
-            <td>2000$</td>
-        </tr>        <tr>
-            <td>3</td>
-            <td>3000$</td>
-            <td>3800$</td>
-            <td>5000$</td>
-        </tr>
-    </table>
-
-    <h3>Me contacter</h3>
-    <p>votre message svp!</p>
-    <form action="">
-        <table>
+        <h3>Tarifs</h3>
+        <table border="1" cellpadding="10" class="tab">
             <tr>
-                <td>Email:</td>
-                <td><input type="email"></td>
+                <th>Option</th>
+                <th>Site vitrine</th>
+                <th>site ecommerce</th>
+                <th>site entreprise</th>
             </tr>
             <tr>
-                <td>Sujet:</td>
-                <td><input type="text"></td>
+                <td>1</td>
+                <td>500$</td>
+                <td>800$</td>
+                <td>1100$</td>
             </tr>
             <tr>
-                <td>message:</td>
-                <td><textarea name="text" rows="5" cols="35"></textarea></td>
+                <td>2</td>
+                <td>1500$</td>
+                <td>1800$</td>
+                <td>2000$</td>
             </tr>
             <tr>
-                <td colspan="2"><input type="submit" value="valider"></td>
+                <td>3</td>
+                <td>3000$</td>
+                <td>3800$</td>
+                <td>5000$</td>
             </tr>
         </table>
-    </form>
+
+        <h3>Me contacter</h3>
+        <p>votre message svp!</p>
+        <form action="">
+            <table class="tabform">
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Sujet:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>message:</td>
+                    <td><textarea name="text" rows="5" cols="35"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="valider"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
 
 </body>
 

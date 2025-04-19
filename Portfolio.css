@@ -1,0 +1,71 @@
+
+body{
+    background-color: lightgrey;
+    font-family: "Roboto Slab", serif;
+    margin: 0 auto;
+    width: 1024px;
+
+}
+.container{
+    background-color:lightcyan;
+    padding: 2%;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2{
+    margin: 50px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    margin-bottom: 50px;
+}
+.tab td,th{
+    border: solid, black, 1px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.tab{
+    width: 100%;
+    height: 500px;
+    border: solid, black, 1px; 
+
+}
+
+.tabform tr td{
+    padding: 20px;
+}
+.tabform input{
+    width: 200px;
+    height: 30px;
+}
+
+.tabform textarea{
+    width: 500px;
+    height: 100px;
+}
+
+.tabform .btn{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+}
+
+img{
+    margin: 2px;
+}
+img:hover{
+    border: 2px solid black;
+}
